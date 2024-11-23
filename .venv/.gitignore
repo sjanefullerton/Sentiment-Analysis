@@ -1,0 +1,4 @@
+# Ignore the data folder contents (except the ZIP file)
+data/*
+#!data.zip
+.venv
