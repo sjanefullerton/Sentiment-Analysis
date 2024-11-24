@@ -56,7 +56,7 @@ model.compile(loss='binary_crossentropy', optimizer=optimizer, metrics=['accurac
 # Train the model
 #model.fit(X_train_pad, y_train.values, epochs=20, batch_size=64, class_weight=class_weights, validation_data=(X_test_pad, y_test.values))
 
-class_weights = {0: 2., 1: 1.}  # Adjust according to need
+class_weights = {0: 2., 1: 2.}  # Adjust according to need
 model.fit(X_train_pad, y_train.values, epochs=20, batch_size=64, class_weight=class_weights, validation_data=(X_test_pad, y_test.values))
 
 # Make predictions and evaluate
