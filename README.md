@@ -1,4 +1,4 @@
-entiment Analysis on Reddit Data (Hurricane Helene)
+# Sentiment Analysis on Reddit Data (Hurricane Helene)
 
 This project implements a sentiment analysis model for Reddit data, specifically related to Hurricane Helene. It utilizes various machine learning techniques, including deep learning and traditional models like logistic regression, random forests, and gradient boosting. The project also uses the Hugging Face `distilbert-base-uncased-emotion` model for emotion classification.
 
