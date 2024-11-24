@@ -2,6 +2,9 @@
 
 This project implements a sentiment analysis model for Reddit data, specifically related to Hurricane Helene. It utilizes various machine learning techniques, including deep learning and traditional models like logistic regression, random forests, and gradient boosting. The project also uses the Hugging Face `distilbert-base-uncased-emotion` model for emotion classification.
 
+### Data Collection
+The datasets used in this project were first collected through a web scraper, which can be found at: [Web-Scraper](https://github.com/sjanefullerton/Web-Scraper). The web scraper pulls relevant Reddit posts related to Hurricane Helene, which are then processed and analyzed for sentiment in this repository.
+
 ## Table of Contents
 
 - [Overview](#overview)
@@ -29,7 +32,6 @@ The project includes both traditional machine learning models and a deep learnin
 - **combine.py**: Script for combining multiple datasets and cleaning the data (e.g., removing duplicates and irrelevant text).
 - **analysistransformers.py**: Script for applying sentiment analysis and emotion classification using transformer models (e.g., fine-tuned `distilbert`).
 - **deep_learning.py**: Script for applying deep learning-based models to sentiment analysis (including training and evaluation).
-- **deep_learning_balanced.py**: A variation of the `deep_learning.py` script that applies class balancing techniques to improve model performance on imbalanced datasets.
 - **gradient_boosting.py**: Script that applies gradient boosting techniques (e.g., XGBoost) to predict sentiment.
 - **logistic_regression.py**: Script for sentiment analysis using logistic regression.
 - **naive_bayes.py**: Script that applies the Naive Bayes classifier for sentiment analysis.
